@@ -28,7 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/text_input"
-            android:hint="@string/color_code_input_message">
+            android:hint="@string/color_code_input_message"
+            app:prefixText="#">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/color_code_input_field"
